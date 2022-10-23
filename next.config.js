@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /** @type {import('next').NextConfig} */
 
 const withPWA = require('next-pwa')({
@@ -8,7 +9,7 @@ const withPWA = require('next-pwa')({
 });
 
 module.exports = withPWA({
-  // next.js config
+  // next.js config:
   reactStrictMode: true,
   swcMinify: true,
 });
